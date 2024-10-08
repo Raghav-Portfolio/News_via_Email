@@ -1,10 +1,10 @@
 import requests
 from email_writing import send_email
 
-api = "8457b05cd33e42d1a2027f52d96a4823 "
+api = "************* "
 url = 'https://newsapi.org/v2/everything?q=tesla&from='\
       '2024-09-08&sortBy=publishedAt&apiKey'\
-      '=8457b05cd33e42d1a2027f52d96a4823'
+      '=***********'
 
 #make a request
 request = requests.get(url)
