@@ -8,10 +8,10 @@ and then copy the app password using password manager in Google, if you're using
 def send_email(message):
     host = 'smtp.gmail.com'
     port = 465
-
-    username = 'ragkan1499@gmail.com'
-    password = 'quhf cizr znec lerb'
-    receiver = 'ragkan1499@gmail.com'
+    #set up your email and app password here:
+    username = ''
+    password = ''
+    receiver = ''
     
     context = ssl.create_default_context()
    
