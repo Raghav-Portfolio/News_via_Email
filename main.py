@@ -2,13 +2,13 @@ import requests
 from email_writing import send_email
 
 topic = 'NVIDIA'
-api = "8457b05cd33e42d1a2027f52d96a4823 "
+api = "*****"
 
 #make sure you only add the f string at the line that it's required at.
 url = 'https://newsapi.org/v2/everything?'\
       f'q={topic}'\
       '&from=2024-09-08&sortBy=publishedAt'\
-      '&apiKey=8457b05cd33e42d1a2027f52d96a4823'\
+      '&apiKey=*********'\
       '&language=en'
 
 #make a request
